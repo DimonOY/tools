@@ -74,6 +74,9 @@ nmap <leader>x :q!<cr>
 " 在 C 语言和 JavaScript 中，用 F2 在插入模式下，给代码行尾补充分号
 imap <F2> <ESC>$A;<CR>
 
+" 在 normal 模式下一键给当前行增加缩进
+nmap <F3> V>
+
 " 在插入模式下移动光标，不用方向键，跟命令行的体验一致
 imap <c-f> <Right>
 imap <c-b> <Left>
